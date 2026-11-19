@@ -229,7 +229,6 @@ class WaveManager:
                 pass
             enemy.destroy()
         self.enemies.clear()
-        self.initial_enemy_count = 0
         self.mothership = None
 
         if self.bonus_ufo is not None:
